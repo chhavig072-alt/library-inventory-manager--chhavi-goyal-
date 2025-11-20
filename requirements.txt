@@ -1,0 +1,2 @@
+# Requirements for Library Inventory Manager
+# All required modules (json, pathlib, logging) are part of the Python Standard Library.
