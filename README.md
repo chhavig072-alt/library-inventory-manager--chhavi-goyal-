@@ -142,6 +142,10 @@ README.md – Documentation
 
 requirements.txt – Standard library references
 
+test_book.py
+
+test_inventory.py
+
 🌟 Assignment Requirements Covered
 
 ✔ OOP class design
@@ -159,6 +163,8 @@ requirements.txt – Standard library references
 ✔ Proper folder structure
 
 ✔ Documentation
+
+✔ Unit Tests
 
 👩‍💻 Author
 
