@@ -6,11 +6,14 @@ class Book:
         self.title = title
         self.author = author
         self.isbn = isbn
-        self.status = status  # 'available' or 'issued' [cite: 16]
+        self.status = status  # 'available' or 'issued'
 
     def __str__(self):
         """Returns a user-friendly string representation."""
-        return f"Title: {self.title} | Author: {self.author} | ISBN: {self.isbn} | Status: {self.status.capitalize()}"
+        return (
+            f"Title: {self.title} | Author: {self.author} "
+            f"| ISBN: {self.isbn} | Status: {self.status.capitalize()}"
+        )
 
     def to_dict(self):
         """Returns a dictionary representation for JSON serialization."""
@@ -22,16 +25,16 @@ class Book:
         }
 
     def issue(self):
-        """Sets the book's status to 'issued' if available[cite: 18]."""
+        """Sets the book's status to 'issued' if available."""
         if self.is_available():
             self.status = "issued"
             return True
         return False
 
     def return_book(self):
-        """Sets the book's status to 'available'[cite: 18]."""
+        """Sets the book's status to 'available'."""
         self.status = "available"
 
     def is_available(self):
-        """Checks if the book is currently available[cite: 18]."""
+        """Checks if the book is currently available."""
         return self.status == "available"
