@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Programming for Beginners",
+        "author": "Pythonista",
+        "isbn": "12345",
+        "status": "available"
+    },
+    {
+        "title": "OOP Design Principles",
+        "author": "A. Code",
+        "isbn": "67890",
+        "status": "issued"
+    }
+]
