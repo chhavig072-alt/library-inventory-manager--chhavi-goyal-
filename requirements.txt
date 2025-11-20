@@ -1,2 +1,4 @@
-# Requirements for Library Inventory Manager
-# All required modules (json, pathlib, logging) are part of the Python Standard Library.
+# No external dependencies required.
+# This project uses only Python Standard Library modules.
+
+
